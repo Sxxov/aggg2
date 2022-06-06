@@ -5,6 +5,7 @@ import { NullSprite } from '../sprite/NullSprite';
 import { PlaceholderSprite } from '../sprite/PlaceholderSprite';
 import type { TPositionStore } from '../types/TPositionStore';
 import { TissueEntity } from './TissueEntity';
+import { TalkToCharlesEntity } from './TalkToCharlesEntity';
 
 export class DirtyTeddyBearEntity extends InteractivePropEntity.for(
 	new PlaceholderSprite(),
@@ -27,5 +28,6 @@ export class DirtyTeddyBearEntity extends InteractivePropEntity.for(
 		);
 
 		this.round.next?.entityPool.push(new TissueEntity(this.round));
+		this.round.next?.entityPool.push(new TalkToCharlesEntity(this.round));
 	}
 }
