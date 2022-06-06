@@ -12,8 +12,7 @@ export class TalkToCharlesEntity extends InteractivePropEntity.for(
 	[2, 2],
 	{
 		heading: 'Look at Charles in the eyes.',
-		message:
-			'You try to talk to Charles as he looks out the window',
+		message: 'You try to talk to Charles as he looks out the window',
 		options: ['ok'],
 		sprite: new PlaceholderSprite(),
 	},

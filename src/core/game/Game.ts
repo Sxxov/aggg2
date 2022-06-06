@@ -7,7 +7,6 @@ import type { ScreenSpace } from './screen/ScreenSpace';
 import { DirtyTeddyBearEntity } from './story/DirtyTeddyBearEntity';
 import { TalkToCharlesEntity } from './story/TalkToCharlesEntity';
 
-
 export class Game {
 	public uiQueue = new ArrayStore<TUi>();
 	public rounds: Round[] = [];
