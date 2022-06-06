@@ -26,6 +26,6 @@ export class DirtyTeddyBearEntity extends InteractivePropEntity.for(
 			'You throw the dirty teddy bear at Charles. Charles gets hit. The teddy bear is wet & smells bad, stunning him for a bit after he’s hit',
 		);
 
-		this.round.next?.entityPool.push(new TissueEntity(this.round));
+		this.round.next?.entityPool.push(new TissueEntity(this.round)); // bruh
 	}
 }
