@@ -10,6 +10,7 @@ import type { ScreenSpace } from './screen/ScreenSpace';
 import { DirtyTeddyBearEntity } from './story/DirtyTeddyBearEntity';
 import { ToteBagEntity } from './story/ToteBagEntity';
 import { XpStore } from './xp/XpStore';
+import { PensAndPaper } from './story/PensAndPaper';
 
 export class Game {
 	public uiQueue = new ArrayStore<TUi>();
